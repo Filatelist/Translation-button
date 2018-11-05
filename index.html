@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>My CV</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+
+    <!-- Don't use this in production: -->
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto col-lg-6">
+                <li class="nav-item"><a class="a btn btn-default" href="#1">Profile</a></li>
+                <li class="nav-item"><a class="a btn btn-default" href="#2">Area of Experience</a></li>
+                <li class="nav-item"><a class="a btn btn-default" href="#3">Education</a></li>
+                <li class="nav-item"><a class="a btn btn-default" href="#4">Technical skills</a></li>
+                <li class="nav-item"><a class="a btn btn-default" href="#5">Contacts</a></li>
+                <li class="nav-item" style="margin-top: 25px"><i class="translate"><img src="icons/worldwide.png" alt="translate"></i></li>
+            </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <div id="root">
+        <div class="info profile">
+            <span class="profile" id="1"><h3 class="headr">Profile</h3></span>
+            <span class="boxp infobox"></span>
+        </div>
+        <div class="row">
+                <div class="col  experience">
+                    <div class="info bord">
+                        <span class="experience" id="2"><h3 class="headr">Experience</h3></span>
+                        <span class="boxe infobox"></span>
+                    </div>
+                </div>
+                <div class="col  education">
+                    <div class="info bord">
+                        <span class="education" id="3"><h3 class="headr">Education</h3></span>
+                        <span class="boxed infobox"></span>
+                    </div>
+
+                </div>
+        </div>
+        <div class="info skills">
+            <span class="skills" id="4"><h3 class="headr">Technical skills</h3></span>
+            <span class="boxt infobox"></span>
+        </div>
+        <div class="info contacts" style="margin-bottom: 10px">
+            <span class="contacts" id="5"><h3 class="headr">Contacts</h3></span>
+            <span class="boxc infobox"></span>
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </div>
+</div>
+
+<script type="text/babel" src="web-content.js">
+</script>
+
+<script src="WOW-master/dist/wow.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
